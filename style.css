@@ -1,0 +1,397 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+header div .search{
+    position: relative;
+    margin-left: 150px;
+}
+header div .search .fa-search{
+    color: #606770;
+    position: absolute;
+    font-size: 15px;
+    left: -17px;
+    top: 10px;
+}
+header div .search input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+header div .search ::placeholder{
+    position: absolute;
+    margin-left:20px;
+    margin-top:7px;
+}
+header h3{
+    margin-top: 20px;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 200px;
+}
+header div .icon{
+margin-right: 100px;
+}
+header div .icon a{
+    margin-right: 15px;
+    color: black;
+}
+header div .icon a :hover{
+    color: blueviolet;
+}
+header hr{
+    margin-top: 50px;
+}
+header nav{
+    display: flex;
+    justify-content: center;
+}
+header nav .home{
+    color: purple;
+}
+header nav a {
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+}
+header nav select{
+    border: none;
+}
+header nav a:hover{
+    color: blueviolet;
+}
+.first{
+    height: 550px;
+    width: 100%;
+    background-image: url(photos/hero_1.jpg);
+    background-size:cover;
+    background-repeat:no-repeat ;
+    background-position:top;
+    background-size: 100% 500px;
+}
+.first div{
+    margin-left: 850px;
+    height: 500px;
+    padding-top: 100px;
+}
+.first div h1{
+    font-size: 40px;
+}
+.first div li {
+    font-size: 20px;
+    list-style-type: none;
+    margin-top: 10px;
+}
+.first div form{
+    margin-top: 30px;
+}
+.first div form input{
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    transition: all0.3 ease;
+}
+.first div form :hover{
+    background-color: rgb(76, 17, 131);
+    transform: translate(1px,1px);
+    box-shadow: 0.3px 0.3px 0.3px 0.3px black;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+}
+
+.second li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.second li p{
+    color: #606770;
+}
+.second li .one{
+    color: black;
+}
+.second div {
+    display: flex;
+    align-items: center;
+
+}
+.second i{
+    margin-right: 20px;
+    margin-top: -100px;
+    font-size: 20px;
+    color: blueviolet;
+}
+hr{ 
+    margin-top: 90px;
+}
+.three {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+
+}
+.three div{
+    position: relative;
+    height: 300px;
+    width: 305px;
+}
+.three div img{
+    width:300px;
+    height: 300px;
+}
+.three div ul{
+    position: absolute;
+    margin-top:-60px ;
+    margin-left: 10px;
+}
+.three div p{
+    color: white;
+}
+.three div li {
+    list-style-type: none;
+}
+.three div ul li p {
+    font-size: 10px;
+}
+.three div ul .two p{
+    font-size: 30px;
+}
+.three div a :hover{
+    transform: scale(1.01,1.01);
+}
+.four{
+    margin-top: 100px;
+    background-color: rgb(246, 245, 245);
+    height: 550px;
+
+}
+.four .one{
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-left: 700px;
+    font-size: 30px;
+    color: purple;
+}
+.four .one p{
+    margin-left: -100px;
+    color: black;
+}
+.four section a{
+    text-decoration: none;
+}
+.four section .mo{
+    margin-left: 10px;
+}
+.four section{
+    display: flex;
+    justify-content: center;
+}
+.four section div {
+    width: 350px;
+    height:370px;
+    background-color: white;
+    margin-right: 20px;
+}
+.four section div img{
+    width: 350px;
+    height: 250px;
+}
+.four section div ul{
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.four section div li {
+    list-style-type: none;
+    color: rgb(132, 17, 155);
+    margin-bottom: 5px;
+}
+.four section div .two{
+    margin-left: -40px;
+    color: silver;
+}
+
+
+.five .one{
+    margin-bottom: 50px;
+    margin-left: 700px;
+    font-size: 30px;
+    margin-top: 40px;
+    color: purple;
+}
+
+.five .one p{
+    margin-left: -35px;
+    color: black;
+}
+.five .two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.five .two img{
+    width: 750px;
+    height: 400px;
+    margin-right: 100px;    
+}
+.five .two ul li{
+    list-style-type: none;
+    margin: 20px;
+}
+.five .two ul .one{
+    width: 400px;
+    color: blueviolet;
+}
+.five .two ul .two{
+    margin-left: -2px;
+    width: 300px;
+    color: #606770;
+}
+.five .two ul .two p{
+    color: blueviolet;
+    margin-left: 2px;
+    margin-right: 5px;
+}
+.five .two ul .three{
+    color: #606770;
+    margin-left: -200px;
+    margin-top: 30px;
+}
+
+.five .two ul .for{
+    height: 20px;
+    margin-top: -9px;
+    color: #606770;
+    margin-left: -80px;
+}
+.five .two ul .five{
+    color: #606770;
+    margin-left: 60px;
+    margin-top: -10px;
+}
+.five .two ul{
+    margin-left: 40px;
+}
+.five .two ul .six input{
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    transition: all0.3 ease;
+}
+.five .two ul .six input:hover{
+    background-color: rgb(76, 17, 131);
+    transform: translate(1px,1px);
+    box-shadow: 0.3px 0.3px 0.3px 0.3px black;
+}
+.five .two ul .six form{
+    margin-left: 80px;
+}
+/*footer*/
+footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+}
+footer div {
+    display: flex;
+    justify-content: space-around;
+
+}
+footer ul li{
+    list-style-type: none;
+    margin: 15px;
+    color: #606770;
+}
+footer .on .one{
+    color: black;
+    font-size: 20px;
+}
+footer .tw {
+    margin-top: 35px;
+    margin-left: -80px;
+}
+footer .thr{
+    margin-top: 35px;
+    margin-left: -150px;
+}
+footer .fo img{
+    width: 250px;
+    height: 100px;
+}
+footer .fo .one {
+    color: black;
+}
+footer .fo .two {
+    color:rebeccapurple ;
+}
+footer .fo{
+    margin-left: -100px;
+}
+footer .fiv li { 
+    display: flex;
+}
+footer .fiv li i{
+    margin-right: 15px;
+}
+footer .fiv .two{
+    margin-top: 40px;
+}
+footer .fiv .two .two{
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    transition: all0.3 ease;
+    margin-left: -5px;
+}
+footer .fiv .two .one{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+footer .fiv .two .two:hover{
+    background-color: rgb(76, 17, 131);
+    transform: translate(1px,1px);
+    box-shadow: 0.3px 0.3px 0.3px 0.3px black;
+}
+footer .last{
+    margin-top: 50px;
+    margin-left: 400px;
+}
+footer .last i{
+    color: blueviolet;
+}
+footer .last em{
+    color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
